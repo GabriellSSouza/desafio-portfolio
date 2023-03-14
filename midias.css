@@ -6,17 +6,20 @@
     }
 
     section {
-        width: unset;
+        /* width: unset; */
     }
 
     .parte_esquerda{
         min-width: 290px;
         max-width: 290px;
-        
     }
 
     .parte_direita{
         width: 90%;
+    }
+    
+    .projetos {
+        margin-top: 0px;
     }
     
 }
@@ -27,26 +30,46 @@
         display: flex;
         gap: 10px;
         justify-content: center;
-
     }
 
-    section {
-        width: unset;
+    main,section,.meus_projetos,.Post-recents-titulo {
+        /* width: unset; */
+        margin-bottom: 20px;
     }
 
     .parte_esquerda{
         min-width: 290px;
         max-width: 350px;
-        
     }
 
     .parte_direita{
         width: 80%;
         max-width: 1000px;
+        margin-right: 20px;
+    }
+
+    .projetos {
+        margin-top: 0px;
+    }
+
+    .area_cada_projeto {
+        display: flex;
+        gap: 10px;
+    }
+
+    .cada_projeto{
+        margin: 0px;
+        width: 100%;
     }
 
     .cada-post-rescent{
         flex-direction: row;
         padding-left: 40px;
+    }  
+    
+    .cada-post-img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
