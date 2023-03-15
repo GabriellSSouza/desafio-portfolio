@@ -74,6 +74,10 @@ section {
     width: 98%;
 }
 
+.perfil,section:not(.projetos):not(.Post-recents),.meus_projetos, .cada_projeto, .Post-recents-titulo, .cada-post-rescent{
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.205);
+}
+
 /* Redes Sociais */
 
 .Redes_sociais{
@@ -145,7 +149,6 @@ section {
 
 .Experiencias ul li:nth-child(odd){
     font-weight: bold;
-    font-weight: 400;
 }
 
 .Educacao {
@@ -158,7 +161,7 @@ section {
 
 .Educacao ul{
     margin: 0 0 20px 12%;
-    width: 100px; 
+    width: 40%; 
 }
 
 .Educacao ul li:nth-child(even){
@@ -167,7 +170,6 @@ section {
 
 .Educacao ul li:nth-child(odd){
     font-weight: bold;
-    font-weight: 400;
 }
 
 .projetos {
@@ -259,7 +261,7 @@ section {
 }
 
 .Post-recents-titulo h2{
-    font-size: 1.4em;
+    font-size: 1.5em;
 }
 
 .cada-post-rescent {
@@ -302,4 +304,7 @@ section {
 
 .cada-post-info .hashtag{
     font-size: .8em;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4%;
 }
