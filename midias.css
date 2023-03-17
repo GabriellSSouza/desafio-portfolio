@@ -14,6 +14,10 @@
         max-width: 290px;
     }
 
+    .Redes_sociais ul li:nth-child(7){
+        font-size: 80%;
+    }
+
     .parte_direita{
         width: 90%;
     }
@@ -21,7 +25,15 @@
     .projetos {
         margin-top: 0px;
     }
+
+    .cada-post-img{
+        padding-bottom: 0px;
+    }
     
+    .cada-post-info{
+        padding: 15px;
+    }
+
 }
 
 @media screen and (min-width:992px){
@@ -40,12 +52,12 @@
 
     .parte_esquerda{
         min-width: 290px;
-        max-width: 350px;
+        max-width: 370px;
     }
 
     .parte_direita{
         width: 80%;
-        max-width: 1000px;
+        max-width: 930px;
         margin-right: 20px;
     }
 
@@ -55,7 +67,7 @@
 
     .area_cada_projeto {
         display: flex;
-        gap: 10px;
+        gap: 20px;
     }
 
     .cada_projeto{
@@ -68,14 +80,20 @@
         gap: 5px;
     }
 
+    .Post-recents{
+        height: 10%;
+    }
+
     .cada-post-rescent{
         flex-direction: row;
         padding-left: 40px;
+        padding: 20px 40px;
     }  
     
     .cada-post-img{
         display: flex;
         align-items: center;
         justify-content: center;
+        
     }
 }

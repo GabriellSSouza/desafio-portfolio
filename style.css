@@ -106,7 +106,7 @@ section {
 }
 
 .Tecnologias h2 {
-    margin-bottom: 15px;
+    margin: 0px 0px 15px 10px;
 }
 
 .Tecnologias-itens{
@@ -199,6 +199,15 @@ section {
 
 .cada_projeto h3{
     font-size: .9em;
+}
+
+a{
+    text-decoration: none;
+    color: var(--text-color);  
+}
+
+a:hover{
+    text-decoration: underline;
 }
 
 .cada_projeto h3 img{
