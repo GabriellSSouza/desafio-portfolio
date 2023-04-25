@@ -11,4 +11,4 @@ Desafio de um portfólio do Discover da Rocketseat.
 - [ ] Consumir uma API do Github
 
 ### Link do site
-[Acesse o resultado aqui](https://gabriellssouza.github.io/desafio-portfolio/)
+<a href="https://gabriellssouza.github.io/desafio-portfolio/" target="_blank">Acesse o resultado aqui</a>
